@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+
+body{
+    background-color: rgb(237,241,222);
+     }
+
+.label-consul{
+font-weight: bold;
+}
+.label-consul:hover{
+color:rgb(124, 178, 201);
+}
+
+
+ .navbar {
+background-color: rgb(194,232,200)
+ }
+
+ .navdrop{
+    background-color: rgb(194,232,200)
+     }
+
+
+ .textoinicio{
+     color:white;
+    font-weight: 300;
+    font-size: 130%;
+    text-align: justify;
+    margin-top: 10%;
+ }
+
+.footerinicio{
+    text-align: center;
+    color: white;
+    margin-top: 40%;
+}
+
+.contenido{
+    color: black;
+    font-weight: 300;
+    font-size: 100%;
+    text-align: justify;
+    margin-top: 2%;
+}
+.panel-default > .paneltitle{
+    font-weight: bold;
+    background: rgb(115,197,145);
+    color:white;
+}
+
+.bannerjumbo{
+    background: rgb(194,232,200);
+}
+
+
+
+ .btn-conctact{background-color:rgb(71,172,106);}
+ .btn-conctact:hover{background-color:rgb(115,197,145)}
+ .btn-conctact{margin-top: -10%; margin-bottom: -10%;color:white}
+
